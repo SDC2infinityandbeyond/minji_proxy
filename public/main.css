@@ -1,0 +1,23 @@
+.test{
+  background-color: aqua;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 650px auto;
+}
+
+#reviews{
+  padding-top: 20px;
+  margin-bottom: 75;
+}
+
+.reservation{
+  position: sticky;
+  top: 0;
+  padding: 10px 0 0 50px;
+}
+
+.body{
+  margin-left: 25%;
+}

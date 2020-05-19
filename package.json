@@ -1,0 +1,35 @@
+{
+  "name": "breg_airbnb_proxy",
+  "description": "> Project description",
+  "author": "Breg Bromley",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6-pack/Breg_AirBnB_Proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/6-pack/Breg_AirBnB_Proxy/issues"
+  },
+  "homepage": "https://github.com/6-pack/Breg_AirBnB_Proxy#readme"
+}
